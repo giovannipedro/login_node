@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   session({
-    secret: "geheime_sleutel", // Geheime sleutel voor sessies, vervang dit met een sterkere sleutel in productie
+    secret: "secrey_katje_miauw", // Geheime sleutel voor sessies, vervang dit met een sterkere sleutel in productie
     resave: false,
     saveUninitialized: true,
     cookie: { secure: false } // Zet dit op true als je HTTPS gebruikt
